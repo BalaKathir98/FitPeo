@@ -50,10 +50,7 @@ public class FitpeoTest  extends BaseClass{
 		return logger;
 	
 	}
-	@AfterSuite
-	public static void quitMethod() {
-		browserQuitMethod();
-	}
+	
 	@Test(priority = 1, description =" Launch Browser Test")
 	@Description("Launch User Defined Browser")
 	@Epic("Fitpeo")
